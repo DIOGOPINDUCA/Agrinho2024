@@ -13,6 +13,7 @@ body{
     color: var(--branco);
     font-family: "Chakra Petch", sans-serif;
 }
+
 .conteudo-principal{
     display:flex;
     flex-direction:column;
@@ -22,15 +23,23 @@ body{
 }
 
 .estagiario-imagem{
+    padding: 2em;
     width: 120px;
 }
 
 .estagiario-nome{
     text-align:center;
+    display:inline-block;
+    padding: 2em;
 }
 
-.estagiario{
+.empresa-imagem{
+    padding: 2em;
+    width: 120px;
+}
 
+.empresa-nome{
+    text-align: center;
 }
 
 .titulo-principal{
@@ -38,20 +47,17 @@ body{
     width: 100%;
     font-size: 32px;
 }
-.titulo-principal span{
-    color: var(--verde);
-}
+
+
 .botao{
     font-family: 'Chakra Petch', sans-serif ;
     background-color: var(--botao-inativo);
     color: var(--branco);
-    display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-top: none;
 }
 
 .aba-conteudo-texto-principal{
