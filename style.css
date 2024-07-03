@@ -24,23 +24,34 @@ body{
 
 .estagiario-imagem{
     padding: 2em;
-    width: 120px;
+    width: 150px;
 }
 
 .estagiario-nome{
     text-align:center;
+    font-size: 20px;
     display:inline-block;
     padding: 2em;
+
 }
 
 .empresa-imagem{
     padding: 2em;
-    width: 120px;
+    width: 150px;
 }
 
 .empresa-nome{
     text-align: center;
+    font-size: 20px;
 }
+
+.Escola-texto-1{
+    font-size: 20px;
+}
+.Escola-texto-2{
+    font-size: 20px;
+}
+
 
 .titulo-principal{
     text-align: left;
